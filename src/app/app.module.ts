@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AutoGrowDirective } from './directives/auto-grow.directive';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { RatingsComponent } from './ratings/ratings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AutoGrowDirective,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    RatingsComponent
   ],
   imports: [
     BrowserModule,
