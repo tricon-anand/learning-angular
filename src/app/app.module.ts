@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AutoGrowDirective } from './directives/auto-grow.directive';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutoGrowDirective
+    AutoGrowDirective,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
