@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { AutoGrowDirective } from './directives/auto-grow.directive';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { RatingsComponent } from './ratings/ratings.component';
+import { LikeUnlikeComponent } from './like-unlike/like-unlike.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AutoGrowDirective,
     TwoWayBindingComponent,
-    RatingsComponent
+    RatingsComponent,
+    LikeUnlikeComponent
   ],
   imports: [
     BrowserModule,
