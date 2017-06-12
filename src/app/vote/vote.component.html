@@ -1,0 +1,9 @@
+<div class="vote-wrapper">
+ <div class="up-arrow glyphicon  glyphicon-chevron-up"
+ [class.highlighted]='myVote == 1' 
+ (click)="voteup()"></div>
+ <div class="count">{{ voteCount ++ myVote }}</div>
+ <div class="down-arrow glyphicon  glyphicon-chevron-down"
+ [class.highlighted]='myVote == -1'
+ (click)="votedown()"></div>
+</div>
