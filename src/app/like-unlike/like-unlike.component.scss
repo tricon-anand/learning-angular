@@ -1,0 +1,7 @@
+.glyphicon-heart {
+  color: #808080;
+  cursor: pointer;
+   &.active {
+    color: #ff6b6b;
+   }
+}
